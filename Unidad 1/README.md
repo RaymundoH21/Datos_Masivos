@@ -1,10 +1,10 @@
 # Carpeta Unidad 1
 # Indice
-### :open_file_folder: Evaluation
-1. :page_facing_up: [Evaluation](./Practica%20documentadas%20pdf/../Practica%20documentadas%20pdf/practica%201.md)
-### :open_file_folder: Homeworks
-2. :page_facing_up: [Homeworks](./Practica%20documentadas%20pdf/../Practica%20documentadas%20pdf/practica%201.md)
-### :open_file_folder: Practices
-3. :page_facing_up: [Practices](./Practica%20documentadas%20pdf/../Practica%20documentadas%20pdf/practica%201.md)
-### :open_file_folder: Research
-4. :page_facing_up: [Research](./Practica%20documentadas%20pdf/../Practica%20documentadas%20pdf/practica%201.md)
+### Evaluation
+1. :open_file_folder: [Evaluation](./Practica%20documentadas%20pdf/../Practica%20documentadas%20pdf/practica%201.md)
+### Homeworks
+2. :open_file_folder:  [Homeworks](./Practica%20documentadas%20pdf/../Practica%20documentadas%20pdf/practica%201.md)
+###  Practices
+3. :open_file_folder: [Practices](./Practica%20documentadas%20pdf/../Practica%20documentadas%20pdf/practica%201.md)
+### Research
+4. :open_file_folder: [Research](./Practica%20documentadas%20pdf/../Practica%20documentadas%20pdf/practica%201.md)
