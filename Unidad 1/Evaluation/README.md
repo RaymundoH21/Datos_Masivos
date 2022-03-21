@@ -4,6 +4,7 @@
 ## 1.- Start a simple Spark session.
 
 import org.apache.spark.sql.SparkSession
+
 val spark = SparkSession.builder().getOrCreate()
 
 ## 2.- Load the Netflix Stock CSV file, have Spark infer the data types.
