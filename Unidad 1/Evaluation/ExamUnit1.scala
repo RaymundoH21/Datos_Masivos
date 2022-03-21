@@ -8,10 +8,10 @@ val spark = SparkSession.builder().getOrCreate()
 
 //2.- Cargue el Archivo Netflix Stock CSV, haga que Spark infiere los tipos de datos
 
-//val Netflix = spark.read.option("header", "true").option ("inferSchema", "true") csv ("Netflix_2011_2016.csv")
-
+val Netflix = spark.read.option("header", "true").option ("inferSchema", "true") csv ("Netflix_2011_2016.csv")
 
 //3.- ¿Cuáles son los nombres de las columnas?
+Netflix.columns
 
 //4.- ¿Cómo es el esquema?
 
