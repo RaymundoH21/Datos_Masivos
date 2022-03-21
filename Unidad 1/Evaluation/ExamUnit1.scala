@@ -8,17 +8,30 @@ val spark = SparkSession.builder().getOrCreate()
 
 //2.- Cargue el Archivo Netflix Stock CSV, haga que Spark infiere los tipos de datos
 
-val Netflix = spark.read.option("header", "true").option ("inferSchema", "true") csv ("Netflix_2011_2016.csv")
+val Net = spark.read.option("header", "true").option ("inferSchema", "true") csv ("Netflix_2011_2016.csv")
+net
+net.printSchema()
 
 //3.- ¿Cuáles son los nombres de las columnas?
-Netflix.columns
+net.columns
 
 //4.- ¿Cómo es el esquema?
+net.printSchema()
 
 //5.- Imprime las primeras 5 columnas.
+var col = 0
+while(col < 5)
+{
+    println(net.columns(col))
+    col = col + 1
+}
 
 //6.-Usa describe () para aprender sobre el DataFrame.
+net.describe().show()
 
 //7.- Crea un nuevo dataframe con una columna nueva llamada “HV Ratio” que es la relación que
 //existe entre el precio de la columna “High” frente a la columna “Volumen” de acciones
 //negociadas por un día. Hint - es una operación
+import org.apache.spark.sql.Column
+val nData = net.withColumn("HVRatio", net("High")/net("Volume"))
+nData.show() 
