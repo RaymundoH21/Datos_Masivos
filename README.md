@@ -24,7 +24,7 @@ Datos Masivos unidad 1
 10. Crear una rama llamada features
 11. Hacer un cambio el la rama features en el archivo README.md puede ser "Esta es la rama features"
 12. Hacer el commit en esta rama.
-1. :page_facing_up: [Practica 1](./Unidad 1/Practices/../../Unidad 1/Practices/Práctica 1 git flow.pdf)
+1. :page_facing_up: [Practica 1](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_1/Unidad%201/Practices/Pr%C3%A1ctica%201%20git%20flow.pdf)
 
 # Practica 2
 - Scala Basics 1
@@ -36,7 +36,7 @@ Datos Masivos unidad 1
     secuencia "Luke"
 5. Cúal es la diferencia entre value (val) y una variable (var) en scala?
 6. Dada la tupla (2,4,5,1,2,3,3.1416,23) regresa el número 3.1416
-2. :page_facing_up: [Practica 2](./Unidad 1/Practices/../../Unidad 1/Practices/Practica 2.md) 
+2. :page_facing_up: [Practica 2](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_1/Unidad%201/Practices/Practica%202.md) 
 
 # Practica 3
 - Scala Basics 2
@@ -49,17 +49,17 @@ Datos Masivos unidad 1
      "Jose", 20, "Luis", 24, "Ana", 23, "Susana", "27"
    6 a . Imprime todas la llaves del mapa
    6 b . Agrega el siguiente valor al mapa("Miguel", 23)
-3. :page_facing_up: [Practica 3](./Unidad 1/Practices/../../Unidad 1/Practices/Practica 3.md)
+3. :page_facing_up: [Practica 3](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_1/Unidad%201/Practices/Practica%203.md)
 
 # Practica 4
 - Scala Basics 3
 Dado el pseudocódigo de la sucesión de Fibonacci en el enlace proporcionado, implementar con Scala el Algoritmo 1, 
 Algoritmo 2, Algoritmo 3, Algoritmo 4, Algoritmo 5
-4. :page_facing_up: [Practica 4](./Unidad 1/Practices/../../Unidad 1/Practices/Practica 4.md)
+4. :page_facing_up: [Practica 4](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_1/Unidad%201/Practices/Pr%C3%A1ctica%204.md)
 
 # Evaluacion U1
 # Practica Evaluatoria U1
 - Practica Dataframes Netflix
 Responder las siguientes preguntas con Spark DataFrames y Scala utilizando el “CSV”
 Netflix_2011_2016.csv que se encuentra el la carpeta de spark-dataframes.
-1. :page_facing_up: [Practica evaluatoria U1](./Unidad 1/Evaluation/../../Unidad 1/Evaluation/Practica_Evaluatoria_1.md) 
+1. :page_facing_up: [Practica evaluatoria U1](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_1/Unidad%201/Evaluation/Practica_Evaluatoria_1.md) 
