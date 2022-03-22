@@ -6,7 +6,7 @@ Datos Masivos unidad 1
 # Tarea 1
 - Ensayo Pair coding
 ¿Qué  es Pair Coding?, hacer una cuartilla con sus propias palabras?
-1. :page_facing_up: [Tarea 1](./Unidad 1/Homeworks/../../Unidad 1/Homeworks/Tarea 1.pdf) 
+1. :page_facing_up: [Tarea 1](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_1/Unidad%201/Homeworks/Tarea%201.pdf) 
 
 ### :open_file_folder: Practicas
 
