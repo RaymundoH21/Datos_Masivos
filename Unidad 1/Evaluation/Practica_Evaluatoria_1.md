@@ -48,7 +48,7 @@ En el presente documento se expondrá a detalle la práctica evaluatoria de la u
 import org.apache.spark.sql.SparkSession
 val spark = SparkSession.builder().getOrCreate()
 
-<img alt="Evidence1" src="./../Unidad 1/Evaluation/IMG/1.PNG">
+<img alt="Evidence1" src="./../Evaluation/IMG/1.PNG">
 
 //2.- Cargue el Archivo Netflix Stock CSV, haga que Spark infiere los tipos de datos
 
