@@ -139,7 +139,7 @@ nData.groupBy(month(nData("Date")).alias("Month")).avg("Close").sort(asc("Month"
 <img alt="Evidence1" src="./../Evaluation/IMG/11E.PNG">
 
 ### Conclusión
-Se puede decir que lo mas importante de esta practica es la familiarizacion de los commandos basicos de scala con dataframes podemos decir que a pesar de que a simple vista esta herramienta podría parecer de lo más complicado en realidad es una herramienta de lo más útil, resulto bastante satisfactorio y enriquecedor.
+Se puede decir que lo mas importante de esta practica es la familiarizacion de los comandos basicos de scala con dataframes podemos decir que a pesar de que a simple vista esta herramienta podría parecer de lo más complicado en realidad es una herramienta de lo más útil, resulto bastante satisfactorio y enriquecedor.
 
 ### link de youtube
-https://youtu.be/RXNpQqOWodg
+https://youtu.be/BeJv1RX9HwA
