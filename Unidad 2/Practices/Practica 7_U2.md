@@ -22,7 +22,7 @@
 
 <H2><p align="Center">PROFESOR: JOSE CHRISTIAN ROMERO HERNANDEZ</p></H2>
 
-<H2><p align="Center">Practica 5</p></H2>
+<H2><p align="Center">Practica 7</p></H2>
 
 <H2><p align="Center">FECHA: 18/05/22</p></H2>
 
@@ -34,6 +34,8 @@
 <br>
 <br>
 <br>
+
+
 
 
 
