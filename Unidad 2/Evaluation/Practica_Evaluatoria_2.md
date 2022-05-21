@@ -40,7 +40,9 @@ En el presente documento se expondrá a detalle la práctica evaluatoria de la u
 
 ### Desarrollo
 //RAYMUNDO HIRALES LAZARENO - 17212339
+
 //PAULA ANDREA RAMOS VERDIN - 18210721
+
 //Exam Unit 2 - 22/03/22
 
 import org.apache.spark.sql.types.DoubleType
