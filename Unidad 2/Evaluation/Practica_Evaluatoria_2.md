@@ -131,3 +131,4 @@ println("Error = " + (1.0 - accuracy))
 Se puede decir que lo mas importante de esta practica es el amplio uso que podemos darle a los scripts de scala para el manejo de dataframes a simple vista estos comandos pueden parecer de lo más complicado pero en realidad es una herramienta sencilla, intuitiva y practica, resulto bastante interesante y enriquecedor esta practica evaluatoria unidad 2.
 
 ### link de youtube
+https://youtu.be/LV83nYQIfCk
