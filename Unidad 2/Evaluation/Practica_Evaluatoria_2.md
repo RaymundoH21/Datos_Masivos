@@ -56,26 +56,33 @@ import org.apache.spark.ml.feature.IndexToString
 import org.apache.spark.ml.Pipeline
 
 //1-.Cargar el dataframe iris
+
 val iris=spark.read.format("csv").option("header","true").load("iris.csv")
 
 //Limpiar el dataframe
+
 val df = iris.withColumn("sepal_length", $"sepal_length".cast(DoubleType)).withColumn("sepal_width", $"sepal_width".cast(DoubleType)).withColumn("petal_length", $"petal_length".cast(DoubleType)).withColumn("petal_width", $"petal_width".cast(DoubleType))
 
 //2-.¿cual es el nombre de las columnas?
+
 df.columns
 
 <img alt="Evidence1" src="./../Evaluation/IMG/1.PNG">
 
 //3-.¿Como es el esquema?
+
 df.printSchema()
 
 <img alt="Evidence1" src="./../Evaluation/IMG/2.PNG">
 
 //4-.Imprimir las primeras 5 columnas
+
 df.show(5)
+
 <img alt="Evidence1" src="./../Evaluation/IMG/3.PNG">
 
 //5-. Usa el metodo describe () para aprender mas sobre los datos del DataFrame
+
 df.describe().show()
 
 <img alt="Evidence1" src="./../Evaluation/IMG/4.PNG">
@@ -83,13 +90,17 @@ df.describe().show()
 //6-.Haga la transformación pertinente para los datos categoricos los cuales serán nuestras etiquetas a clasificar.
 
 val assembler = new VectorAssembler().setInputCols(Array("sepal_length", "sepal_width", "petal_length", "petal_width")).setOutputCol("features")
+
 val features = assembler.transform(df)
 
 val indexerL = new StringIndexer().setInputCol("species").setOutputCol("indexedLabel").fit(features)
+
 val indexerF = new VectorIndexer().setInputCol("features").setOutputCol("indexedFeatures").setMaxCategories(4).fit(features)
 
 val splits = features.randomSplit(Array(0.6, 0.4))
+
 val training = splits(0)
+
 val test = splits(1)
 
 val layers = Array[Int](4, 5, 5, 3)
@@ -98,7 +109,9 @@ val layers = Array[Int](4, 5, 5, 3)
 //7-.Construya el modelo de clasificación y explique su arquitectura.
 
 val trainer = new MultilayerPerceptronClassifier().setLayers(layers).setLabelCol("indexedLabel").setFeaturesCol("indexedFeatures").setBlockSize(128).setSeed(System.currentTimeMillis).setMaxIter(200)
+
 val converterL = new IndexToString().setInputCol("prediction").setOutputCol("predictedLabel").setLabels(indexerL.labels)
+
 val pipeline = new Pipeline().setStages(Array(indexerL, indexerF, trainer, converterL))
 
 val model = pipeline.fit(training)
@@ -108,6 +121,7 @@ val model = pipeline.fit(training)
 val predictions = model.transform(test)
 
 val evaluator = new MulticlassClassificationEvaluator().setLabelCol("indexedLabel").setPredictionCol("prediction").setMetricName("accuracy")
+
 val accuracy = evaluator.evaluate(predictions)
 println("Error = " + (1.0 - accuracy))
 
