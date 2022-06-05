@@ -108,7 +108,7 @@ Documentar y ejecutar el ejemplo de la documentación de  spark de Naive Bayes, 
 # Practica Evaluatoria U2
 - Practica Dataframes Iris
 Desarrollar las siguientes instrucciones en Spark con el leguaje de programación Scala, utilizando solo la documentacion de la librería de Machine Learning Mllib de Spark y Google.
-2. :page_facing_up: [Practica evaluatoria U2](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_1/Unidad%201/Evaluation/Practica_Evaluatoria_1.md) 
+2. :page_facing_up: [Practica evaluatoria U2](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_3/Unidad%202/Evaluation/Practica_Evaluatoria_2.md) 
 
 
 # Evaluacion U3
@@ -116,4 +116,4 @@ Desarrollar las siguientes instrucciones en Spark con el leguaje de programació
 - Practica Dataframes Wholesale customers
 El objetivo de este examen práctico es tratar de agrupar los clientes de regiones específicas
 de un distribuidor al mayoreo. Esto en base a las ventas de algunas categorías de productos.
-3. :page_facing_up: [Practica evaluatoria U3](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_3/Unidad%203/Evaluation/Practica_Evaluatoria_3.md) 
+3. :page_facing_up: [Practica evaluatoria U3](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_3/Unidad%203/Evaluation/Practica%5D_Evaluatoria_U3.md) 
