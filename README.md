@@ -64,6 +64,7 @@ Responder las siguientes preguntas con Spark DataFrames y Scala utilizando el �
 Netflix_2011_2016.csv que se encuentra el la carpeta de spark-dataframes.
 1. :page_facing_up: [Practica evaluatoria U1](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_1/Unidad%201/Evaluation/Practica_Evaluatoria_1.md) 
 
+
 # Unidad_2
 Datos Masivos unidad 2
 
@@ -117,3 +118,15 @@ Desarrollar las siguientes instrucciones en Spark con el leguaje de programació
 El objetivo de este examen práctico es tratar de agrupar los clientes de regiones específicas
 de un distribuidor al mayoreo. Esto en base a las ventas de algunas categorías de productos.
 3. :page_facing_up: [Practica evaluatoria U3](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_3/Unidad%203/Evaluation/Practica_Evaluatoria_3.md) 
+
+
+# Evaluacion U4
+# Practica Evaluatoria U4
+- Proyecto Final
+Contenido del proyecto
+Objectivo: Comparación del rendimiento de los siguientes algoritmos de machine learning
+   - SVM
+   - Decision Three
+   - Logistic Regresion
+   - Multilayer perceptron
+3. :page_facing_up: [Practica evaluatoria U4](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_4/Unidad%204/Evaluation/Practica_Evaluatoria_4.md) 
