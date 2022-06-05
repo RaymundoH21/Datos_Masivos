@@ -315,7 +315,7 @@ metrics.accuracy
 println(s"Accuracy=${metrics.accuracy}")
 ```
 <p>
-<img alt="Logo" src="./../Unit-4/Media/logistic accuracy.PNG" >
+<img alt="Logo" src="./../Evaluation/IMG/1.PNG" >
 </p>
 
 | Iter | LogiReg | 
@@ -370,7 +370,7 @@ val prediction = model.transform(test)
 prediction.select("prediction", "label","features").show(5)
 ```
 <p>
-<img alt="Logo" src="./../Unit-4/Media/multilayerresult.PNG" >
+<img alt="Logo" src="./../Evaluation/IMG/2.PNG" >
 </p>
 
 para el paso mostramos el resultado con obtener la precisión
@@ -380,7 +380,7 @@ val evaluator = new MulticlassClassificationEvaluator().setLabelCol("indexedLabe
 val accuracy = evaluator.evaluate(prediction)
 ```
 <p>
-<img alt="Logo" src="./../Unit-4/Media/multilayeraccuracy.PNG" >
+<img alt="Logo" src="./../Evaluation/IMG/3.PNG" >
 </p>
 
 **Multilayer Perceptron**
