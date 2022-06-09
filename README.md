@@ -63,3 +63,48 @@ Algoritmo 2, Algoritmo 3, Algoritmo 4, Algoritmo 5
 Responder las siguientes preguntas con Spark DataFrames y Scala utilizando el “CSV”
 Netflix_2011_2016.csv que se encuentra el la carpeta de spark-dataframes.
 1. :page_facing_up: [Practica evaluatoria U1](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_1/Unidad%201/Evaluation/Practica_Evaluatoria_1.md) 
+
+# Unidad_2
+Datos Masivos unidad 2
+
+### :open_file_folder: Practicas
+
+# Practica 1
+- Conceptos básicos de estadistica
+Documentar y ejecutar el ejemplo de la documentación de  spark de Basic Statistics , en su branch correspondiente.
+1. :page_facing_up: [Practica 1](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_2/Unidad%202/Practices/Practica%201_U2.md)
+
+# Practica 2
+- Decision Tree Classifier
+Documentar y ejecutar el ejemplo de la documentación de  spark del Decision tree classifier, en su branch correspondiente.
+2. :page_facing_up: [Practica 2](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_2/Unidad%202/Practices/Practica%202_U2.md) 
+
+# Practica 3
+- Random Forest Classifier
+Documentar y ejecutar el ejemplo de la documentación de  spark del Random Forest classifier, en su branch correspondiente.
+3. :page_facing_up: [Practica 3](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_2/Unidad%202/Practices/Practica%203_U2.md)
+
+# Practica 4
+- Gradient-boosted tree classifier
+Documentar y ejecutar el ejemplo de la documentación de  spark del Decision tree classifier, en su branch correspondiente.
+4. :page_facing_up: [Practica 4](https://github.com/RaymundoH21/datos_masivos-Gradient-boosted_tree_classifier-expo/blob/Unidad_2/Exposicion.md)
+
+# Practica 5
+- Multilayer Perceptron classifier
+Documentar y ejecutar el ejemplo de la documentación de  spark del Multilayer Perceptron classifier, en su branch correspondiente.
+5. :page_facing_up: [Practica 5](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_2/Unidad%202/Practices/Practica%205_U2.md)
+
+# Practica 6
+- Linear Support Vector Machine
+Documentar y ejecutar el ejemplo de la documentación de  spark del Linear Support Vector Machine, en su branch correspondiente.
+6. :page_facing_up: [Practica 6](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_2/Unidad%202/Practices/Practica%206_U2.md)
+
+# Practica 7
+- Naive Bayes
+Documentar y ejecutar el ejemplo de la documentación de  spark de Naive Bayes, en su branch correspondiente
+7. :page_facing_up: [Practica 7](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_2/Unidad%202/Practices/Practica%207_U2.md)
+
+# Evaluacion U2
+# Practica Evaluatoria U2
+- Practica Dataframes Iris
+Desarrollar las siguientes instrucciones en Spark con el leguaje de programación Scala, utilizando solo la documentacion de la librería de Machine Learning Mllib de Spark y Google.21. :page_facing_up: [Practica evaluatoria U2](https://github.com/RaymundoH21/Datos_Masivos/blob/Unidad_2/Unidad%202/Evaluation/Practica_Evaluatoria_2.md) 
